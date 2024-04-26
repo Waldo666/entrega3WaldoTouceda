@@ -135,3 +135,30 @@ label {
 i {
     font-size: 35px;
 }
+.container-flex {
+    display: flex;
+  }
+  
+  .text-content {
+    color: aliceblue;
+    flex: 1; 
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-content h2,
+  .text-content h3 {
+    margin: 0; 
+  }
+  
+  .map-container {
+    width: 600px; 
+    padding: 20px;
+  }
+  
+  .map-container iframe {
+    border-radius: 60px; 
+  }
